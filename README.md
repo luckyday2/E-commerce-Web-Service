@@ -234,3 +234,34 @@ Import:
 ```
 
 ---
+
+
+// TOKEN
+
+Token rajid:
+eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiVVNFUiIsInN1YiI6InJhamlkIiwiaWF0IjoxNzUxODkxOTQ4LCJleHAiOjE3NTE5OTk5NDh9.roW-e39DIxTepuo8EY_9OIm1HxZLJ4PZNd6OFE50sbA
+
+token lucky:
+eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiVVNFUiIsInN1YiI6Imx1Y2t5MTIzIiwiaWF0IjoxNzUxODI1ODA2LCJleHAiOjE3NTE5MzM4MDZ9.zgdvy62yrpgo4mvJq-Qy2V1XQi12_y8pH7Z8JOjCZ6Y
+
+admin luky:
+eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiQURNSU4iLCJzdWIiOiJsdWNreTEyMyIsImlhdCI6MTc1MTkwODM1MywiZXhwIjoxNzUyMDE2MzUzfQ.wtb8fyapdujAq9LIA5ZHxx6KJVl0DnhskfmSyiiaPPs
+
+dirantika kasir:
+eyJhbGciOiJIUzI1NiJ9.eyJyb2xlIjoiVVNFUiIsInN1YiI6ImRpcmFudGlrYSIsImlhdCI6MTc1MTkxMzI2MiwiZXhwIjoxNzUyMDIxMjYyfQ.CaSC7zhhx3PjsulXNF7eoRkdpG9o7xzzitTBbPTg3no
+
+
+// CREATE TRANSAKSI
+
+{
+    "orderId": "0c970c2a-4358-424f-b7ab-565c3ab2e9d2", // Ganti dengan orderId yang Anda dapatkan
+    "totalBayar": 8750000.0, // Uang yang dibayarkan, harus >= totalAmount order
+    "metodeBayar": "E_WALLET"
+}
+
+
+// UPDATE STATUS
+
+{
+    "status": "GAGAL"
+}
