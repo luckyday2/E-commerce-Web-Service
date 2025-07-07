@@ -1,0 +1,12 @@
+pakai lombok aja jangan generate getter setter secara otomatis
+
+tambahkan createdBy dan updatedBy (pakai dto dgn mapper biar createdBy nya otomatis ambil data dari jwt)
+pakai repository
+
+public interface ProductRepository extends MongoRepository<Product, String> {
+    List<Product> findByNameContainingIgnoreCase(String name);
+
+    List<Product> findByCategoryIgnoreCase(String category);
+
+    List<Product> findByCreatedBy(String createdBy); =====> ni contohnya biar private dikit hanya ambil sesuai yang user buat
+}

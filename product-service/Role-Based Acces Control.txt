@@ -1,0 +1,25 @@
+USER Role:
+
+✅ Create products
+✅ View own products only (in getAllProducts())
+✅ View own product by ID
+❌ Update products (forbidden)
+✅ Delete own products only
+✅ Search products
+✅ Get own products (/mine)
+
+KASIR Role:
+
+✅ Create products
+✅ View all products
+✅ View any product by ID
+✅ Update product stock only
+❌ Delete products (forbidden)
+✅ Search products
+✅ Reduce stock
+
+ADMIN Role (default/other):
+
+✅ All operations allowed
+✅ Full CRUD access
+✅ Can update all product fields
